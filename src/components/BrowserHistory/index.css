@@ -1,0 +1,106 @@
+.app-container {
+  background-color: #f1f5f9;
+  padding: 30px;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-icon {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.history-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history-item {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.history-item-details {
+  display: flex;
+  align-items: center;
+}
+
+.history-item-logo {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.history-item-info {
+  text-align: left;
+}
+
+.history-item-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.history-item-domain {
+  color: #6c757d;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.history-item-time {
+  color: #6c757d;
+  font-size: 12px;
+}
+
+.delete-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+}
+
+.no-history {
+  font-size: 18px;
+  color: #6c757d;
+}
+
+.empty-history-view {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.empty-history-view img {
+  width: 200px;
+}
+
+.empty-history-view p {
+  font-size: 18px;
+  color: #6c757d;
+  margin-top: 15px;
+}
